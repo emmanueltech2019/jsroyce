@@ -15,7 +15,7 @@ function Section2() {
               <Image src={Img} alt={"image"} className="rounded"/>
           </div>
           <div className='pr-10 flex flex-col space-y-5 pl-20'>
-              <h1 className='font-bold text-5xl' style={{color: "#C89B38;"}}>Hello!</h1>
+              <h1 className='font-bold text-5xl' style={{color: "#C89B38"}}>Hello!</h1>
               <p className='text-gray-500 pb-5'>JD is one of the top rated marketing agency, focused on the growth of medical practices and startups, with the use of marketing techniques, SEO to pull web traffick and onboard new patients to your practice.</p>
               <p className='text-gray-500 pb-5'>JD is one of the top rated marketing agency, focused on the growth of medical practices and startups, with the use of marketing techniques, SEO to pull web traffick and onboard new patients to your practice.</p>
           </div>

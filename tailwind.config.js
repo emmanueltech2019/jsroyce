@@ -13,7 +13,7 @@ module.exports = {
         darkBlack:"#323030;",
         navDarkGold:" #191818;",
         darkestGold:"#262424;",
-        mainGold:"#C89B38;",
+        mainGold:"#C89B38",
         bgBase:"#102235",
         mainSilver:"#ebebeb",
       }
