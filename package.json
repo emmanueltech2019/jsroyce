@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,6 +14,8 @@
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.11",
     "next": "12.3.1",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
     "react": "18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-collapsible": "^2.10.0",
