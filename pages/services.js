@@ -14,9 +14,9 @@ function services() {
           <Header/>
           <ServiceList/>
           <Choice/>
-          <Plans/>
-          <Clients/>
-          <CaseStudy/>
+          <Plans/>  
+          {/* <Clients/> */}
+          {/* <CaseStudy/> */}
           <CVCTA/>
       </Layout>
     </>

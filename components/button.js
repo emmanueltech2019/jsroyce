@@ -1,6 +1,6 @@
 import React from "react";
 
-function Button({ text, bg, bg2 }) {
+function Button({ text, bg, bg2, className }) {
   return (
       <a
         style={{backgroundColor:`${bg?bg:"transparent"}`, border:`1px solid ${bg2}`, color:bg2?bg2:"#fff"}}
@@ -20,7 +20,8 @@ function Button({ text, bg, bg2 }) {
         mt-4 
         lg:mt-0 
         w-fit 
-
+        ${className}
+        
         transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-700
         `}
       >

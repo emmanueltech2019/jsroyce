@@ -49,11 +49,12 @@ function HomeCV() {
         )
     }
   return (
-    <div className='h-fit md:p-48 p-5 w-screen' style={{backgroundColor:"#102235"}}>
+    <div className='h-fit md:p-24 p-5 w-screen' style={{backgroundColor:"#102235"}}>
         {data.map((item, index)=>(
-            <Accordion key={index}>
+            <Accordion key={index} expanded={index==0?true:false} className={"bg-transparent text-white border-white border-t drop-shadow-none"}>
             <AccordionSummary
-            expandIcon={<AddIcon />}
+            expandIcon={<AddIcon  className='text-white'/>}
+            className={"drop-shadow-none"}
             
             aria-controls="panel1a-content"
             id="panel1a-header"
