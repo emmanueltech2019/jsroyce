@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import Link from 'next/link';
 
 
 function Footer() {
@@ -18,17 +19,14 @@ function Footer() {
             <div>
                 <h1 className='text-3xl py-4'>Company</h1>
                 <ul className='list-none flex flex-col space-y-3 text-sm'>
-                    <li>About Us </li>
-                    <li>Our Works </li>
-                    <li>Testimonials </li>
+                    <li><Link href="/">About Me</Link> </li>
+                    <li><Link href="/services">Services</Link> </li>
                 </ul>
             </div>
             <div>
-                <h1 className='text-3xl py-4'>Services</h1>
+                <h1 className='text-3xl py-4'>More</h1>
                 <ul className='list-none flex flex-col space-y-3 text-sm'>
-                    <li>About Us </li>
-                    <li>About Us </li>
-                    
+                    <li><Link href="/contact">Contact</Link></li>                    
                 </ul>
             </div>
             <div className='w-40'>

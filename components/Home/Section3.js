@@ -13,7 +13,7 @@ function Section1() {
               <span className='text-gray-500'>I am  here to help</span>
               <h1 className='font-bold text-5xl text-bgBase'>Acquire more<br/>patients</h1>
               <p className='text-gray-500 pb-5'>JD is one of the top rated marketing agency, focused on the growth of medical practices and startups, with the use of marketing techniques, SEO to pull web traffick and onboard new patients to your practice.</p>
-              <Button text={"Book Appointment"}  className="mt-5 mainGold" bg2={"#C89B38"}/>
+              <Button text={"Book Appointment"}  className="mt-5 mainGold" bg2={"#f7cc0a"}/>
           </div>
       </div>
     </div>

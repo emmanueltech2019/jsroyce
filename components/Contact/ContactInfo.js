@@ -11,7 +11,7 @@ function ContactInfo() {
         <form
           className="bg-white shadow-md rounded px-10 pt-6 pb-8 mb-4 md:absolute md:-top-20 md:left-20 text-black "
         >
-          <span className="pb-2 text-black">We would love to talk</span>
+          <span className="pb-2 text-black">I would love to talk</span>
           <h1 className="text-3xl pb-5 text-black te">Get in touch</h1>
           <div className="flex justify-between">
             <div className="mb-4">
@@ -78,7 +78,7 @@ function ContactInfo() {
             <textarea rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500  dark:placeholder-gray-400"></textarea>
           </div>
           <div className="flex items-center justify-between">
-            <Button text={"Submit"} bg={"#C89B38"}/>
+            <Button text={"Submit"} bg={"#f7cc0a"}/>
             
           </div>
         </form>

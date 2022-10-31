@@ -8,7 +8,7 @@ function Clients() {
   return (
     <div className="w-screen">
       <div className="bg-white p-20 text-black text-center w-screen">
-        <p>Some of the recent projects we have done</p>
+        <p>Some of the recent projects I have done</p>
         <h1 className="text-black font-bold font-30 capitalize text-4xl py-5 pb-10">
           Our <span className="text-mainGold">Clients</span>
         </h1>
@@ -37,7 +37,7 @@ function Clients() {
               techniques, SEO to pull web traffick and onboard new patients to
               your practice.
             </p>
-            <Button text={"lets have a chat"} bg2={"#C19023"} />
+            <Button text={"lets have a chat"} bg2={"#f7cc0a"} />
           </div>
         </div>
       </div>

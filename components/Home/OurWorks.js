@@ -7,7 +7,7 @@ import Frame4 from "../../public/Frame 71.png"
 import Frame5 from "../../public/Frame 67.png"
 function OurWorks() {
   return (
-    <div className='w-screen h-fit pt-5 text-center' style={{backgroundColor:"#1C1C1C"}}>
+    <div className='w-screen h-fit pt-5 text-center bg-bgBase'>
         <span className='text-white'>a crossed section client work delivered</span>
          <h1 className='text-white font-bold font-30 capitalize text-4xl py-5 pb-10'>Our <span className='text-mainGold'>Works</span></h1>
         <div className='md:columns-4 columns-2 gap-3 mx-auto space-y-3 pb-10'>

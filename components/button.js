@@ -1,10 +1,11 @@
 import React from "react";
 
-function Button({ text, bg, bg2, className }) {
+function Button({ text, bg, bg2, className, handleOpen }) {
   return (
       <a
         style={{backgroundColor:`${bg?bg:"transparent"}`, border:`1px solid ${bg2}`, color:bg2?bg2:"#fff"}}
         href="#"
+        onClick={handleOpen?handleOpen:null}
         className={`
         inline-block 
         text-sm 

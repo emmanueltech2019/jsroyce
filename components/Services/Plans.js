@@ -13,7 +13,7 @@ function Plans() {
             <h1 className='text-3xl pb-3'>Lite</h1>
             <p className='pb-3'>Get started</p>
             <div className='py-5'>
-                <Button text={"Get started"} className="px-16 py-4" bg2={"#C89B38"}/>
+                <Button text={"Get started"} className="px-16 py-4" bg2={"#f7cc0a"}/>
             </div>
             <h1 className='text-3xl pb-3'>$5000</h1>
             <p className='pb-3'>(Per Buisness per month)</p>
@@ -28,7 +28,7 @@ function Plans() {
             <h1 className='text-3xl pb-3'>Lite</h1>
             <p className='pb-3'>Get started</p>
             <div className='py-5'>
-                <Button text={"Get started"} className="px-16 py-4" bg={"#C89B38"}/>
+                <Button text={"Get started"} className="px-16 py-4" bg={"#f7cc0a"}/>
             </div>
             <h1 className='text-3xl pb-3'>$5000</h1>
             <p className='pb-3'>(Per Buisness per month)</p>
@@ -43,7 +43,7 @@ function Plans() {
             <h1 className='text-3xl pb-3'>Lite</h1>
             <p className='pb-3'>Get started</p>
             <div className='py-5'>
-                <Button text={"Get started"} className="px-16 py-4" bg2={"#C89B38"}/>
+                <Button text={"Get started"} className="px-16 py-4" bg2={"#f7cc0a"}/>
             </div>
             <h1 className='text-3xl pb-3'>$5000</h1>
             <p className='pb-3'>(Per Buisness per month)</p>
@@ -56,7 +56,7 @@ function Plans() {
         </div>
     </div>
     <div className='py-10'>
-        <Button text={"Download As PDF"} className="py-5 px-16 mt-10" bg={"#C89B38"}/>
+        <Button text={"Download As PDF"} className="py-5 px-16 mt-10" bg={"#f7cc0a"}/>
     </div>
 
     </div>
