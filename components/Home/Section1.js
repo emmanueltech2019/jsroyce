@@ -14,7 +14,7 @@ function Section1() {
               <Image src={Img} alt={"image"} className="rounded"/>
           </div>
       </div>
-      <iframe className='pt-5' width="100%" height="500" src="https://www.youtube.com/embed/vo1NyNB9rN8?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      {/* <iframe className='pt-5' width="100%" height="500" src="https://www.youtube.com/embed/vo1NyNB9rN8?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
     </div>
   )
 }

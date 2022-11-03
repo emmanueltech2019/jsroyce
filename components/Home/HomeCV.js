@@ -8,27 +8,32 @@ import AddIcon from '@mui/icons-material/Add';
 function HomeCV() {
     const data =[
         {
-            title:"Education",
+            title:"Experience",
             page:"This is the collapsible content. It can be any element or React component you like.",
             active:true
         },
         {
-            title:"Expertise",
+            title:"Skills",
             page:"This is the collapsible content. It can be any element or React component you like.",
             active:false
         },
         {
-            title:"Skill",
+            title:"Mentorship",
             page:"This is the collapsible content. It can be any element or React component you like.",
             active:false
         },
         {
-            title:"Case Study",
+            title:"Development",
             page:"This is the collapsible content. It can be any element or React component you like.",
             active:false
         },
         {
-            title:"Award & Recognistion",
+            title:"Clients",
+            page:"This is the collapsible content. It can be any element or React component you like.",
+            active:false
+        },
+        {
+            title:"Recommendation",
             page:"This is the collapsible content. It can be any element or React component you like.",
             active:false
         },
