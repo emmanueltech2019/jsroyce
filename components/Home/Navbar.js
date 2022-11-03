@@ -47,7 +47,7 @@ function Navbar() {
         </Link>
     </div>
     <div>
-      <Button text={"Book Appointment"} bg={"#f7cc0a"}/>
+      <Button text={"Book Appointment"} bg={"#E9B806"}/>
     </div>
   </div>
 </nav>

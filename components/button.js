@@ -3,7 +3,6 @@ import React from "react";
 function Button({ text, bg, bg2, className, handleOpen }) {
   return (
       <a
-        style={{backgroundColor:`${bg?bg:"transparent"}`, border:`1px solid ${bg2}`, color:bg2?bg2:"#fff"}}
         href="#"
         onClick={handleOpen?handleOpen:null}
         className={`
@@ -13,17 +12,23 @@ function Button({ text, bg, bg2, className, handleOpen }) {
         py-3 
         leading-none  
         rounded 
-        text-white 
+        text-bgBase 
         border-white 
         hover:border-transparent 
         hover:text-white 
         hover:bg-white 
         mt-4 
         lg:mt-0 
-        w-fit 
+        w-fit
+        bg-gradient-to-r 
+        from-step1
+        via-step2
+        to-step4
+        from-step4
+        text-bold
         ${className}
         
-        transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-700
+        transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-700
         `}
       >
         {text}

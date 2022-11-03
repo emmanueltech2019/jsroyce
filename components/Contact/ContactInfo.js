@@ -12,7 +12,7 @@ function ContactInfo() {
           className="bg-white shadow-md rounded px-10 pt-6 pb-8 mb-4 md:absolute md:-top-20 md:left-20 text-black "
         >
           <span className="pb-2 text-black">I would love to talk</span>
-          <h1 className="text-3xl pb-5 text-black te">Get in touch</h1>
+          <h1 className="text-3xl pb-5  font-bold text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4">Get in touch</h1>
           <div className="flex justify-between">
             <div className="mb-4">
               <label
@@ -85,20 +85,20 @@ function ContactInfo() {
       </div>
       <div className="flex flex-col space-y-10 text-left pb-40 p-5">
         <div>
-          <h3 className="text-2xl text-mainGold">Phone</h3>
+          <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4">Phone</h3>
           <p className="text-black">(+234) 340 756 84</p>
         </div>
         <div>
-          <h3 className="text-2xl text-mainGold">Email</h3>
+          <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4">Email</h3>
           <p className="text-black">jdagency@gmail.com</p>
         </div>
         <div>
-          <h3 className="text-2xl text-mainGold">Locations</h3>
+          <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4">Locations</h3>
           <p className="text-black">67 JD street off jd avenue
 jd state.</p>
         </div>
         <div>
-          <h3 className="text-2xl text-mainGold">Socials</h3>
+          <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4">Socials</h3>
           <p className="flex justify-between text-black pt-5"><YouTubeIcon style={{color:"#FF0000"}} fontSize="large"/> <FacebookIcon style={{color:"#3b5998"}}  fontSize="large"/> <TwitterIcon fontSize="large" style={{color:"#00acee"}}  /> <LinkedInIcon fontSize="large" style={{color:"#0072b1"}} /> </p>
         </div>
       </div>

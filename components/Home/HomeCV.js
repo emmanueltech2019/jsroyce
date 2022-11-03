@@ -23,7 +23,7 @@ function HomeCV() {
             active:false
         },
         {
-            title:"Works",
+            title:"Case Study",
             page:"This is the collapsible content. It can be any element or React component you like.",
             active:false
         },
