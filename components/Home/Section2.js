@@ -15,7 +15,7 @@ function Section2() {
               <Image src={Img} alt={"image"} className="rounded"/>
               <div className='w-fit h-fit bg-bgBase absolute md:top-40 p-2 md:-right-10 right-0 top-0 z-10'>
                 <h1 className='text-5xl font-bold'>James</h1>
-                <h1 className='text-4xl fancy'>Royce</h1>
+                <h1 className='text-5xl font-bold '>Royce</h1>
               </div>
           </div>
           <div className='pr-10 flex flex-col space-y-5 md:pl-20 pl-8 py-5'>
