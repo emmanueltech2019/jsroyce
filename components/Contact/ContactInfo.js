@@ -86,7 +86,7 @@ function ContactInfo() {
       <div className="flex flex-col space-y-10 text-left pb-40 p-5">
         <div>
           <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4">Phone</h3>
-          <p className="text-black">(+234) 340 756 84</p>
+          <p className="text-black">+1 512.945.5195</p>
         </div>
         <div>
           <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4">Email</h3>

@@ -18,16 +18,19 @@ function Footer() {
                     <p>JD team of professionals who provide innovative, marketing for medical outfits and start ups across the country to grow their business.</p>
                 </div>
                 <div>
-                    <h1 className='text-3xl py-4'>Company</h1>
+                    {/* <h1 className='text-3xl py-4'>Company</h1> */}
                     <ul className='list-none flex flex-col space-y-3 text-sm'>
-                        <li><Link href="/">About Me</Link> </li>
-                        <li><Link href="/services">Services</Link> </li>
+                        <li><Link href="/services">Medical Marketing</Link> </li>
+                        <li><Link href="/services">Digital Startegy</Link> </li>
+                        <li><Link href="/services">Brand Identity</Link> </li>
                     </ul>
                 </div>
                 <div>
-                    <h1 className='text-3xl py-4'>More</h1>
+                    {/* <h1 className='text-3xl py-4'>More</h1> */}
                     <ul className='list-none flex flex-col space-y-3 text-sm'>
-                        <li><Link href="/contact">Contact</Link></li>                    
+                        <li><Link href="/contact">Growth Partnership</Link></li>
+                        <li><Link href="/contact">Practice Aquisation</Link></li>                    
+                        <li><Link href="/contact">Investment & Holdings.</Link></li>
                     </ul>
                 </div>
                 <div className='w-40'>
@@ -35,12 +38,12 @@ function Footer() {
                     <ul className='list-none flex flex-col space-y-3 text-sm'>
                         <li className="flex"><span className='pr-5'>Email </span><span> jd@gmail.com</span></li>
                         <li className="flex"><span className='pr-5'>Address</span><span>jdafressssssssss</span></li>
-                        <li className="flex"> <span className='pr-5'>Phone</span><span>+233980547654</span></li>
+                        <li className="flex"> <span className='pr-5'>Phone</span><span>+1 512.945.5195</span></li>
                     </ul>
                 </div>
             
             </div>
-            <div className='flex justify-end text-3xl space-x-4 p-6'>
+            <div className='flex justify-end text-3xl space-x-4 p-8'>
                 <TwitterIcon fontSize='large'/>
                 <FacebookIcon fontSize='large'/>
                 <LinkedInIcon fontSize='large'/>
@@ -56,7 +59,7 @@ function Footer() {
         </div>
         <div className='bg-bgBase h-fit text-white w-screen flex flex-row justify-between p-5'>
             <p>© Copyright James D Royce 2022. All Right Reserved.</p>
-            <p>Made with <FavoriteBorderIcon color='red'/> by <a href='devemmy.tech' target="_blank">Devemmy</a></p>
+            <p>Made with <FavoriteBorderIcon color='red'/> by <a href='www.devemmy.tech' target="_blank">Devemmy</a></p>
         </div>
     </>
   )
