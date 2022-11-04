@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Frame1 from "../../public/Frame 64.png"
 import Frame2 from "../../public/Frame 66.png"
-import Frame3 from "../../public/Frame 68.png"
+import Frame3 from "../../public/Frame 73.png"
 import Frame4 from "../../public/Frame 71.png"
 import Frame5 from "../../public/Frame 67.png"
 function OurWorks() {
