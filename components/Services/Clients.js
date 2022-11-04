@@ -25,7 +25,7 @@ function Clients() {
             <Image src={Img} alt={"image"} className="rounded" />
           </div>
           <div className="pl-10 flex flex-col space-y-5">
-            <span className="text-gray-500">I am here to help</span>
+            <span className="text-gray-500">I am here to help you</span>
             <h1 className="font-bold text-5xl">
               Acquire more
               <br />

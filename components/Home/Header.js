@@ -6,9 +6,31 @@ function Header() {
   return (
     <>
         <div className='w-screen md:h-screen  h-fit  relative  md:text-left md:text-center text-left  md:flex'>
-            <div className='text-center md:text-left md:py-32 py-20 p-5 md:bg-mainSilver bg-bgBase text-mainSilver md:text-bgBase md:pt-40 md:px-20'>
-                <h1 className='md:text-3xl text-1xl font-bold leading-lose md:text-bgBase text-mainSilver pb-5 leading-10 uppercase'>I Invest in People, businesses<br/>& build brands.</h1>
-                <p className='w-fit pt-5 leading-lose md:text-left md:text-center text-left capitalize leading-6'>a buisness developer and marketing expert<br/>specialized in marketing strategy, content <br/>managemnet sysytems, seo and Google <br/>analytics.</p>
+            <div className='text-left md:text-left md:py-32 py-20 p-5 md:bg-mainSilver bg-bgBase text-mainSilver md:text-bgBase md:pt-40 md:px-20'>
+                <h1 className='md:text-3xl text-1xl font-bold leading-lose md:text-bgBase text-mainSilver pb-0 leading-10 uppercase'>I Invest in People, businesses<br/><p className='text-4xl'>& build brands.</p></h1>
+                <h1 className='text-3xl font-bold pt-0 text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step1'>JAMES D ROYCE</h1>
+                {/* <p className='w-fit pt-5 leading-lose md:text-left md:text-left text-center capitalize leading-6'>I am a development executive with specialties <br/>in digital strategy; medical<br/> marketing; practice acquisitions, growth partnerships;<br/> investments & holdings..</p> */}
+                <div className='flex space-x-10 pt-24'>
+                    <div className='text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4'>
+                        <h1 className='md:text-2xl text-1xl font-bold'>SOLLOH</h1>
+                        <span>FOUNDER</span>
+                        <ul className='text-bgBase uppercase md:list-disc list-none text-sm pt-2 text-mainGold flex flex-col space-y-2'>
+                           <li><p className='md:text-bgBase text-white'>medical marketing</p></li>
+                           <li><p className='md:text-bgBase text-white'>digital strategy</p></li>
+                           <li><p className='md:text-bgBase text-white'>brand identity</p></li>
+                        </ul>
+                    </div>
+                    <div className='text-transparent bg-clip-text bg-gradient-to-r from-step1 via-step2 to-step4 uppercase'>
+                        <h1 className='md:text-2xl text-1xl font-bold'>ROYCE - ROYCE</h1>
+                        <span>CO-FOUNDER</span>
+                        <ul className='text-bgBase md:list-disc list-none text-sm pt-2 text-mainGold flex flex-col space-y-2'>
+                           <li><p className='md:text-bgBase text-white'>Growth Partnerships</p></li>
+                           <li><p className='md:text-bgBase text-white'>Practice Acquisitions</p></li>
+                           <li><p className='md:text-bgBase text-white'>investments  & holdings</p></li>
+                        </ul>
+                        
+                    </div>
+                </div>
                 <div className='md:pt-10 pt-5 flex flex-col space-y-5 md:block'>
                     <button className='bg-transparent border-amber-400 border-2 px-20 p-3 rounded text-white text-1xl mr-5 md:text-bgBase  '>My CV</button>
                     <button className=' bg-gradient-to-r from-step1 via-step2 to-step4 p-3 px-8 mb-5 md:mb-0 rounded text-bgBase text-1xl mr-5'>Book appointmenmt</button>

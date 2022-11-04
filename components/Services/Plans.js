@@ -9,7 +9,7 @@ function Plans() {
     your Buisness needs.</span></h1>
 
     <div className='flex md:flex-row flex-col md:justify-around pl-14 md:px-20'>
-        <div className='h-fit w-72 rounded-lg text-white text-left p-8 my-5 bg-white text-bgBase shadow-md shadow-mainSilver'>
+        <div className='h-fit w-72 rounded-lg text-bgBase text-left p-8 my-5 bg-white text-bgBase shadow-md shadow-mainSilver'>
             <h1 className='text-3xl pb-3'>Lite</h1>
             <p className='pb-3'>Get started</p>
             <div className='py-5'>
@@ -24,7 +24,7 @@ function Plans() {
                 <li>Google Marketing</li>
             </ul>
         </div>
-        <div className='h-fit w-72 rounded-lg text-white text-left p-8 my-5 bg-white text-bgBase shadow-md shadow-mainSilver'>
+        <div className='h-fit w-72 rounded-lg text-bgBase text-left p-8 my-5 bg-white text-bgBase shadow-md shadow-mainSilver'>
             <h1 className='text-3xl pb-3'>Basic</h1>
             <p className='pb-3'>Get started</p>
             <div className='py-5'>
@@ -39,7 +39,7 @@ function Plans() {
                 <li>Google Marketing</li>
             </ul>
         </div>
-        <div className='h-fit w-72 rounded-lg text-white text-left p-8 my-5 bg-white text-bgBase shadow-md shadow-mainSilver'>
+        <div className='h-fit w-72 rounded-lg text-bgBase text-left p-8 my-5 bg-white text-bgBase shadow-md shadow-mainSilver'>
             <h1 className='text-3xl pb-3'>Plus</h1>
             <p className='pb-3'>Get started</p>
             <div className='py-5'>

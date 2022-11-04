@@ -10,7 +10,7 @@ function HomeAbout() {
             </div>
             <div className='text-black '>
                 <div className='pl-20'>
-                    <span className='py-2'>Curious about who i am,</span>
+                    <span className='py-2'>Curiousbout who i am a,</span>
                     <h2 className='py-3 text-3xl font-bold'>About Me</h2>
                     <p className='py-5'>My name is James Dominick, I am an accomplished Development Executive with over 30 years of multiple startups and 3 notable business successes.</p>
                     <button className='text-mainGold border-current mt-12 px-8 py-4 border rounded hover:bg-mainGold hover:text-white'>Book appointmenmt</button>

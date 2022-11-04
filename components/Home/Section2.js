@@ -6,8 +6,8 @@ import Button from '../button'
 function Section2() {
   return (
     <div className="">
-        <div className='w-screen text-black text-center p-5 pt-10 flex flex-col space-y-1' style={{backgroundColor:"#ebebeb"}}>
-            <span className='text-gray-500'>I have so much to offfer you to grow</span>
+        <div className='w-screen text-black text-center p-5 pt-10 flex flex-col space-y-1 border-b-bgBase border-2' style={{backgroundColor:"#fff"}}>
+            <span className='text-gray-500'>Curious about who i am?</span>
             <h1 className='text-4xl font-bold pb-5 text-bgBase'>About Me</h1>
         </div>
         <div className='md:flex  text-white items-center ' style={{backgroundColor:"#ffffff"}}>
