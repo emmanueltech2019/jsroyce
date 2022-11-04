@@ -27,6 +27,7 @@ function Header() {
                            <li><p className='md:text-bgBase text-white'>Growth Partnerships</p></li>
                            <li><p className='md:text-bgBase text-white'>Practice Acquisitions</p></li>
                            <li><p className='md:text-bgBase text-white'>investments  & holdings</p></li>
+                           
                         </ul>
                         
                     </div>
