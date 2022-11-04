@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import img from  "../../public/profile.jpg"
+// import img from  "../../public/profile.jpg"
 function HomeAbout() {
   return (
     <div className='w-screen h-fit bg-bgGray pt-40 pb-40 px-36' >
         <div className='flex flex-row'>
             <div className='HomeAboutImg h-fit w-full' style={{width:"1000px"}}>
-                <Image src={img}  alt="image" className='object-cover'/>
+                {/* <Image src={img}  alt="image" className='object-cover'/> */}
             </div>
             <div className='text-black '>
                 <div className='pl-20'>

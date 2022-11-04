@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../button";
-import Img from "../../public/Rectangle 2 (6).png";
-import Img2 from "../../public/profile.jpg";
+// import Img2 from "../../public/profile.jpg";
 import Image from "next/image";
 
 function Clients() {
@@ -45,11 +44,11 @@ function Clients() {
       <div className="border grid grid-cols-2 gap-4 justify-around bg-mainSilver px-5">
         <div className="max-w-md rounded overflow-hidden shadow-lg flex bg-white h-fit">
           <div className="w-40 h-40 my-8">
-            <Image
+            {/* <Image
               src={Img2}
               className="rounded-full "
               alt="Sunset in the mountains"
-            />
+            /> */}
           </div>
           <div className="px-6 py-4 pt-6 h-fit">
             <p className="text-gray-700 text-base">
@@ -61,11 +60,11 @@ function Clients() {
         </div>
         <div className="max-w-md rounded overflow-hidden shadow-lg flex bg-white h-fit">
           <div className="w-40 h-40 my-8">
-            <Image
+            {/* <Image
               src={Img2}
               className="rounded-full "
               alt="Sunset in the mountains"
-            />
+            /> */}
           </div>
           <div className="px-6 py-4 pt-6 h-fit">
             <p className="text-gray-700 text-base">
@@ -80,11 +79,11 @@ function Clients() {
       <div className="py-5 border grid grid-cols-2 gap-4 justify-around bg-mainSilver px-5">
         <div className="max-w-md rounded overflow-hidden shadow-lg flex bg-white h-fit">
           <div className="w-40 h-40 my-8">
-            <Image
+            {/* <Image
               src={Img2}
               className="rounded-full "
               alt="Sunset in the mountains"
-            />
+            /> */}
           </div>
           <div className="px-6 py-4 pt-6 h-fit">
             <p className="text-gray-700 text-base">
@@ -96,11 +95,11 @@ function Clients() {
         </div>
         <div className="max-w-md rounded overflow-hidden shadow-lg flex bg-white h-fit">
           <div className="w-40 h-40 my-8">
-            <Image
+            {/* <Image
               src={Img2}
               className="rounded-full "
               alt="Sunset in the mountains"
-            />
+            /> */}
           </div>
           <div className="px-6 py-4 pt-6 h-fit">
             <p className="text-gray-700 text-base">

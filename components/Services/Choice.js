@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import Img from "../../public/Rectangle 2 (6).png"
 import Marketing from "../../public/marketing.jpeg"
 import Brand from "../../public/brand.jpeg"
 import Seo from "../../public/Seo.png"

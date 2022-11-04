@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Img from "../../public/Rectangle 2 (6).png"
+// import Img from "../../public/Rectangle 2 (6).png"
 import Button from '../button'
 
 function Choice() {
@@ -18,7 +18,7 @@ function Choice() {
               <Button text={"lets have a chat"} bg2={"#f7cc0a"}/>
           </div>
           <div className='h-full w-full relative'>
-              <Image src={Img} alt={"image"} className="rounded"/>
+              {/* <Image src={Img} alt={"image"} className="rounded"/> */}
           </div>
       </div>
       <div className='md:flex  text-black items-center py-8 md:px-24 px-5 space-y-5 bg-mainSilver mt-1' >
