@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import React, {useState} from "react"
-import Loader from '../components/Loader';
 
 
 function MyApp({ Component, pageProps }) {

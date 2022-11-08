@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 import Img from "../../public/Aboutimg.png"
 import Button from '../button'
@@ -7,7 +7,7 @@ function Section1() {
     <div className='bg-mainSilver py-20'>
       <div className='md:flex  text-black items-center py-8 md:px-24 px-5' >
           <div className='h-full w-full relative'>
-              <Image src={Img} alt={"image"} className="rounded"/>
+              <img src={Img.src} alt={"image"} className="rounded"/>
           </div>
           <div className='md:pl-10 py-5 flex flex-col space-y-3'>
               <span className='text-gray-500'>Let&apos;s grow your medical practice.</span>

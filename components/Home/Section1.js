@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 import Img from "../../public/aquisition.jpeg"
 
@@ -12,7 +12,7 @@ function Section1() {
               <p className='text-gray-500 pb-5'>JD is one of the top rated marketing agency, focused on the growth of medical practices and startups, with the use of marketing techniques, SEO to pull web traffick and onboard new patients to your practice.</p>
           </div>
           <div className='h-full w-full relative'>
-              <Image src={Img} alt={"image"} className="rounded"/>
+              <img src={Img.src} alt={"image"} className="rounded"/>
           </div>
       </div>
       {/* <iframe className='pt-5' width="100%" height="500" src="https://www.youtube.com/embed/vo1NyNB9rN8?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}

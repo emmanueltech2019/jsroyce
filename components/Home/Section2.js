@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 import Img from "../../public/Frame 86.png"
 import Button from '../button'
@@ -12,7 +12,7 @@ function Section2() {
         </div>
         <div className='md:flex  text-white items-center ' style={{backgroundColor:"#ffffff"}}>
             <div className='h-full w-full relative'>
-              <Image src={Img} alt={"image"} className="rounded"/>
+              <img src={Img.src} alt={"image"} className="rounded"/>
               <div className='w-fit h-fit bg-bgBase absolute md:top-40 p-2 md:-right-10 right-0 top-0 z-10'>
                 <h1 className='text-5xl font-bold'>James</h1>
                 <h1 className='text-5xl font-bold '>Royce</h1>

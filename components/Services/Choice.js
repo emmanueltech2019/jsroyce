@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 import Marketing from "../../public/marketing.jpeg"
 import Brand from "../../public/brand.jpeg"
@@ -23,12 +23,12 @@ function Choice() {
           </div>
         
           <div className='h-full w-full relative'>
-              <Image src={Marketing} alt={"image"} className="rounded"/>
+              <img src={Marketing.src} alt={"image"} className="rounded"/>
           </div>
       </div>
       <div className='md:flex md:flex-row text-black items-center py-8 md:px-24 px-5 space-y-5 bg-mainSilver mt-1 ' >
           <div className='h-full w-full relative'>
-              <Image src={Seo} alt={"image"} objectFit='cover' className="rounded"/>
+              <img src={Seo.src} alt={"image"} objectFit='cover' className="rounded"/>
           </div>
           <div className='pl-10 flex flex-col space-y-5'>
               <span className='text-gray-500'>Let&apos;s showcase your medical practice</span>
@@ -45,7 +45,7 @@ function Choice() {
               <Button text={"lets have a chat"} bg2={"#f7cc0a"}/>
           </div>
           <div className='h-full w-full relative'>
-              <Image src={Brand} alt={"image"} className="rounded"/>
+              <ing src={Brand.src} alt={"image"} className="rounded"/>
           </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 import Logo from "../../public/logo.png"
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -16,7 +16,7 @@ function Footer() {
         <div className='bg-darkestGold w-screen h-fit text-white container md:px-16 px-10 py-10' style={{backgroundColor:"#102235"}}>
             <div className='md:flex md:space-x-20 space-y-5 text-left align-start'>
             <div>
-            <Image src={Logo} alt="" width={"100"} height={"60"}/>
+            <img src={Logo.src} alt="" width={"100"} height={"60"}/>
 
                 <div className='pr-0'>
                     <p>JD team of professionals who provide innovative, marketing for medical outfits and start ups across the country to grow their business.</p>

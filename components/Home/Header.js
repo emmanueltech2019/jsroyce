@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 import Img from "../../public/guy.png"
 // <>172D41
@@ -39,7 +39,7 @@ function Header() {
             </div>
             <div className='absolute right-0 bottom-0 hidden md:block'>
                 {/* <p className='absolute w-10 z-10 top-10'>Hi     there! Im Finge, founder of ConversionLab </p> */}
-                <Image src={Img} alt=""/>
+                <img src={Img.src} alt=""/>
             </div>
         
             {/* <div className='absolute md:p-0 px-4 top-40 left-0  text-center w-full'>

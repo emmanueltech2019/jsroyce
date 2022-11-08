@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/img'
 import React from 'react'
 import Frame1 from "../../public/Frame 64.png"
 import Frame2 from "../../public/Frame 66.png"
@@ -12,28 +12,28 @@ function OurWorks() {
          <h1 className='text-white font-bold font-30 capitalize text-4xl py-10 pb-10'>Client <span className='text-mainGold'>Portfolio</span></h1>
         <div className='md:columns-4 columns-2 gap-3 mx-auto space-y-3 pb-10'>
           <div className='break-inside-avoid'>
-            <Image src={Frame1} alt={"project"}/>
+            <img src={Frame1.src} alt={"project"}/>
           </div>
           <div className='break-inside-avoid'>
-            <Image src={Frame2} alt={"project"}/>
+            <img src={Frame2.src} alt={"project"}/>
           </div>
           <div className='break-inside-avoid'>
-            <Image src={Frame3} alt={"project"}/>
+            <img src={Frame3.src} alt={"project"}/>
           </div>
           <div className='break-inside-avoid'>
-            <Image src={Frame4} alt={"project"}/>
+            <img src={Frame4.src} alt={"project"}/>
           </div>
           <div className='break-inside-avoid'>
-            <Image src={Frame5} alt={"project"}/>
+            <img src={Frame5.src} alt={"project"}/>
           </div>
           <div className='break-inside-avoid'>
-            <Image src={Frame3} alt={"project"}/>
+            <img src={Frame3.src} alt={"project"}/>
           </div>
           <div className='break-inside-avoid'>
-            <Image src={Frame2} alt={"project"}/>
+            <img src={Frame2.src} alt={"project"}/>
           </div>
           <div className='break-inside-avoid'>
-            <Image src={Frame1} alt={"project"}/>
+            <img src={Frame1.src} alt={"project"}/>
           </div>
         
         </div>
