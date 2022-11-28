@@ -84,7 +84,7 @@ function Footer() {
         </div>
         <div className='bg-bgBase h-fit text-white w-screen flex md:flex-row flex-col justify-between p-5 md:space-y-0 space-y-5'>
             <p>© Copyright James D Royce 2022. All Right Reserved.</p>
-            <p>Made with <FavoriteBorderIcon color='red'/> by <a href='www.devemmy.tech' target="_blank">Devemmy</a></p>
+            <p>Made with <FavoriteBorderIcon color='red'/> by <a href='https://devemmy.tech' target="_blank" rel="noreferrer noopener">Devemmy</a></p>
         </div>
     </>
   )

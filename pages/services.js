@@ -11,7 +11,7 @@ function services() {
   return (
     <>
         <Layout>
-          <Header/>
+          <Header title="Our Services" desc="And how they help you achieve your goal"/>
           <ServiceList/>
           <Choice/>
           <Plans/>  

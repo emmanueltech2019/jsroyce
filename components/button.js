@@ -1,9 +1,9 @@
 import React from "react";
 
-function Button({ text, bg, bg2, className, handleOpen }) {
+function Button({ text, bg, bg2, className, handleOpen, link }) {
   return (
       <a
-        href="#"
+        href={link?link:""}
         onClick={handleOpen?handleOpen:null}
         className={`
         inline-block 
